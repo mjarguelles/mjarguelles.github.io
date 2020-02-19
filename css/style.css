@@ -1,0 +1,136 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+
+html {
+    background-color: #f6f6f6;
+}
+
+body {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#head-content-box {
+    height: 200px;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+#head-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#head-heading h2 {
+    color: #6d6e70;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+#head-btn {
+    margin-top: 15px;
+}
+
+#head-btn a {
+    color: #a7a9ab;
+    border: 1px solid #a7a9ab;
+    padding: 10px 25px;
+    font-size: 12px;
+    border-radius: 0;
+    letter-spacing: 1px;
+    transition: .2s;
+}
+
+#head-btn a:hover {
+    color: #6D6E70;
+    border: 1px solid #6D6E70;
+}
+
+
+/*  =============================================
+                      ANIMATION
+=================================================*/
+
+#head-heading,
+#head-btn {
+    animation-duration: .5s;
+}
+
+#head-heading {
+    animation-delay: .1s;
+}
+
+#head-btn {
+    animation-delay: .5s;
+}
+
+/*  =============================================
+                      WORK
+=================================================*/
+
+.content-box {
+    margin: 15px 0 50px;
+}
+
+#emailMarketing .content-box {
+    margin: 50px 0;
+}
+
+.content-box h3 {
+    font-size: 20px;
+    color: #6d6e70;
+    text-align: center;
+}
+
+.img-wrapper {
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.img-wrapper img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    object-position: top;
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.1)
+}
+
+@media only screen and (min-width: 400px) {
+    h3 {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    h3:before,
+    h3:after {
+        background-color: #dee2e6;
+        content: "";
+        display: inline-block;
+        height: 1pxz position: relative;
+        vertical-align: middle;
+        width: 20%;
+    }
+
+    h3:before {
+        right: 0.5em;
+        margin-left: -50%;
+    }
+
+    h3:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+}
+
+.spacing {
+    padding: 25px 0;
+}
